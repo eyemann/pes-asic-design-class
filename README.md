@@ -1,7 +1,7 @@
 # pes_asic_class
 
 # VLSI Physical Design for ASICs
-## Objective
+
 
 
 <img width="399" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/f6d007e4-e06a-4ac6-aec8-10f4acb8b104">
@@ -46,11 +46,19 @@ int main(){
  Positive : [0 , 2^(n-1)-1]
           Negative : [-1 to 2^(n-1)]
 
-## Labwork
+## C program to show the maximum and minimum values of 64bit unsigned and signed numbers
+
 
 <img width="445" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/c333edb6-c455-451e-8b82-39568087e11a">
-```
 
-<img width="420" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ca7f0384-598d-4d81-96d4-5b583b6198b0">
+  
+<img width="469" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/473cddd0-660d-46f9-887e-b685dfc77887">
+
+## C program using asm
+
+<img width="547" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/0b9253d6-e44f-4d97-85c2-ef9e8f917a6f">
+
+
+
 
 
