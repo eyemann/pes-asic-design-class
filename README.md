@@ -1,6 +1,11 @@
 # pes_asic_class
-
 # VLSI Physical Design for ASICs
+
+
+<details>
+  <summary>DAY 1 
+	  Introduction to RISCV ISA and GNU Compiler Toolchain </summary>
+  <br>
 
 
 
@@ -54,11 +59,24 @@ int main(){
   
 <img width="469" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/473cddd0-660d-46f9-887e-b685dfc77887">
 
+</details>
+
+<details>
+  <summary>DAY 2 
+	  Introduction to ABI and Basic Verification Flow </summary>
+  <br>
+
 ## C program using asm
 
 <img width="547" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/0b9253d6-e44f-4d97-85c2-ef9e8f917a6f">
 
-# Day 3
+</details>
+
+<details>
+  <summary>DAY 3 
+	  Introduction to Verilog RTL design and Synthesis </summary>
+  <br>
+# Using iverilog and gtkwave
 
 
 <img width="501" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ae1a032d-db72-4915-a03c-aa9181951237">
@@ -74,6 +92,13 @@ int main(){
 
 
 <img width="231" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/52fc8f6d-b3a2-484b-868a-ad850d08bceb">
+
+</details>
+
+<details>
+  <summary>DAY 4
+	 Introduction to Timing Dot Libs </summary>
+  <br>
 
 
 <img width="399" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/8eaf117b-2507-4d27-9221-10989bb0d987">
