@@ -158,3 +158,25 @@ int main(){
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/280caf21-0d82-4edc-a701-3a70a864836f)
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/c0fb2bef-d3ad-4eb2-b7f9-525da00a2ca6)
+
+
+
+<details>
+  <summary>DAY 1 
+	  Introduction to RISCV ISA and GNU Compiler Toolchain </summary>
+  <br>
+<img width="421" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/e141bc3f-98da-456f-bd19-b003d6748394">
+
+<img width="438" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/d80c4712-3155-42a6-9bda-93f4de9f22ae">
+
+<img width="360" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/5f758fef-e5c6-4c0c-939d-ac49e0035046">
+
+<img width="422" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/3f190693-40b6-472b-91d4-30baccfc3a04">
+
+<img width="440" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/8be6d498-9ac8-4903-9e11-16cbab2ecb9d">
+
+<img width="452" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ff9490cd-0013-4364-97f6-a7ba4f6bbfd1">
+
+<img width="386" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/6f3692ff-8185-487b-9777-3ed75a54a5ba">
+
+</details>
