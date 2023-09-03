@@ -77,25 +77,37 @@ int main(){
 	  Introduction to Verilog RTL design and Synthesis </summary>
   <br>
 
-	# Using iverilog and gtkwave
+## Using iverilog and gtkwave
 
++ `mkdir vsd`
++ `cd vsd`
++ `git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git`
 
++ `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
++ `iverilog good_mux.v tb_good_mux.v`
++ `./a.out`
++ ` gtkwave tb_good_mux.vcd `
 
 <img width="501" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ae1a032d-db72-4915-a03c-aa9181951237">
 
 
 <img width="562" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/9c1f455d-f405-4d68-9983-b319c2c0c588">
 
-
++ `gvim tb_good_mux.v -o good_mux.v`
 
 <img width="440" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/3c85e5c3-8e6f-4741-8ecf-866d0abab9d8">
 
+## Yosys and Logic Synthesis
 
++ `cd`
++ `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
++  `yosys`
 
 <img width="579" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/21d8077f-645c-4c8a-80db-03fb0b15de0b">
 
-
-
++ ` read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
++ `read_verilog good_mux.v`
++` synth -top good_mux`
 
 <img width="231" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/52fc8f6d-b3a2-484b-868a-ad850d08bceb">
 
