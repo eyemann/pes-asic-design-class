@@ -211,3 +211,33 @@ int main(){
 
 </br>
 </details>
+
+<details>
+  <summary>DAY 6 
+	 GLS Synthesis</summary>
+  <br>
+
+ ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/514ead36-3132-4454-aaca-429e8d7ee4dc)
+
+ ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/66ecd35a-01ed-4582-8e1e-5004ceb75f77)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/94c8ecdc-6aef-4012-b1a5-b27fdfe6952f)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/34790038-329d-45c8-8352-01bd66a6dd8e)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/d3ce6344-9598-4639-9832-dc97359417b9)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/7f2e3fb6-4458-4eea-af72-9656ac5f862e)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/d45aae30-153f-4562-9f21-a37116c2b425)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/bea780a0-eb0a-4f61-8f98-6170242e3b75)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/2b0d53ca-0122-48d2-92dd-98c233188dce)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/9c1baef0-4879-4dd4-bce0-2fc3f23932aa)
+
+![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/12a99db3-8027-428d-8e3b-94052a15bf6d)
+
+ </br>
+</details>
