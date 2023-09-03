@@ -108,7 +108,7 @@ int main(){
 
 + ` read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
 + `read_verilog good_mux.v`
-+` synth -top good_mux`
++ `synth -top good_mux`
 
 <img width="231" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/52fc8f6d-b3a2-484b-868a-ad850d08bceb">
 
