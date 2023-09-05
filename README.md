@@ -118,28 +118,54 @@ int main(){
   <summary>DAY 4
 	 Introduction to Timing Dot Libs </summary>
   <br>
-
+<details>
+<summary> Introduction to Dot Lib </summary>	
 
 <img width="399" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/8eaf117b-2507-4d27-9221-10989bb0d987">
+</br>
+</details>
+<details>
+<summary> Hierarchical Synthesis Flat Synthesis </summary>
 
+ + `multiple_modules.v`
 
+  - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
+  -  `gvim multiple_modules.v`
+     
 <img width="439" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ebe6fb60-3bfa-48ef-aeca-48e74da68bcc">
 
++  `multiple_modules` instantiates `sub_module1` and `sub_module2`
+
++  `yosys`
++  `read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
++  ` read_verilog multiple_modules.v`
++  `synth -top multiple_modules` //to set it as top module
 
 <img width="334" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/b1fed7f9-98e7-48c0-a913-883044ea134f">
 
++  `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
++  To view the netlist `show multiple_modules`
++ `write_verilog -noattr multiple_modules_hier.v`
++ `!gvim multiple_modules_hier.v`
 
 <img width="287" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/a9f76084-bad6-40de-8286-b48a80bb503d">
 
 
 <img width="343" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/d3b07264-134e-43c1-8728-129d1a1c9b6f">
 
+</br>
+</details>
+
+<details>
+<summary>D Flip-Flop with Asynchronous Reset</summary>	
+
 
 <img width="466" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/1c9e7627-f173-4768-a384-26ce64f41fbe">
 
 
 <img width="455" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/2567b948-b71d-4e0e-ae86-b89a56e418e3">
-
+<details>
+<summary>D Flip-Flop with Asynchronous Reset</summary>
 
 <img width="445" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/a7efb63d-0fcf-4579-a5b8-dca6ce96c397">
 
@@ -171,6 +197,8 @@ int main(){
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/280caf21-0d82-4edc-a701-3a70a864836f)
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/c0fb2bef-d3ad-4eb2-b7f9-525da00a2ca6)
+</br>
+</details>
 </br>
 </details>
 <details>
