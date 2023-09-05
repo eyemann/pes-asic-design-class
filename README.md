@@ -183,11 +183,31 @@ int main(){
 </br>
 </details>
 
+<details>
+<summary>Simulation, GTKWave</summary>
+
++ **Simulation**
+  - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
+  - `iverilog dff_asyncres.v tb_dff_asyncres.v`
+  - `./a.out`
+  - `gtkwave tb_dff_asyncres.vcd`
+
 <img width="604" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/f5237b95-4873-44d6-84bc-be0c81829477">
 
-
++ **Synthesis**
+  - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
+  - `yosys`
+  - `read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+  - `read_verilog dff_asyncres.v`
+  - `synth -top dff_asyncres`
+  - `dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+  - `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+  - `show`
 <img width="425" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ae853aec-24cd-4abe-874e-9940533fde92">
-
+  - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
+   - `iverilog dff_async_set.v tb_dff_async_set.v`
+   - `./a.out`
+   - `gtkwave tb_dff_async_set.vcd`
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/492639f6-68b3-4950-ad40-bb69ece929ee)
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/b4981944-78ab-4adb-8aaf-6776fa3ff9af)
