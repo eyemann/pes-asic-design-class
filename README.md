@@ -204,10 +204,12 @@ int main(){
   - `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
   - `show`
 <img width="425" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/ae853aec-24cd-4abe-874e-9940533fde92">
-  - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
+
+   - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
    - `iverilog dff_async_set.v tb_dff_async_set.v`
    - `./a.out`
    - `gtkwave tb_dff_async_set.vcd`
+     
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/492639f6-68b3-4950-ad40-bb69ece929ee)
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/b4981944-78ab-4adb-8aaf-6776fa3ff9af)
@@ -216,6 +218,12 @@ int main(){
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/cefd4143-f4aa-4701-b4e2-e3fa62d8fed6)
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/db472146-4699-4546-a4fc-fd8341e0e2dd)
+</br>
+</details>
+
+<details>
+  <summary>Optimisations </summary>
+  <br>
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/8e7f1387-1dd2-4279-89d3-ca7cb2fcca8e)
 
@@ -230,6 +238,10 @@ int main(){
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/280caf21-0d82-4edc-a701-3a70a864836f)
 
 ![image](https://github.com/eyemann/pes-asic-design-class/assets/142375203/c0fb2bef-d3ad-4eb2-b7f9-525da00a2ca6)
+</br>
+</details>
+
+
 </br>
 </details>
 </br>
