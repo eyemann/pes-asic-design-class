@@ -160,6 +160,7 @@ int main(){
 <summary>D Flip-Flop with Asynchronous Reset</summary>	
 
  `gvim dff_asyncres_syncres.v`
+ 
 <img width="466" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/1c9e7627-f173-4768-a384-26ce64f41fbe">
 </br>
 </details>
@@ -177,6 +178,7 @@ int main(){
 <summary>D Flip-Flop with Synchronous Reset</summary>
 	
 `gvim dff_syncres.v`
+
 <img width="445" alt="image" src="https://github.com/eyemann/pes-asic-design-class/assets/142375203/a7efb63d-0fcf-4579-a5b8-dca6ce96c397">
 </br>
 </details>
